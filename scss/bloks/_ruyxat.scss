@@ -58,12 +58,11 @@
 @media screen and (max-width:  $mobile) {
   .ruyxat__list{
       width: 100%;
-    
+      overflow-x: scroll;
      
       flex-wrap: nowrap;
       margin-bottom: 45px;
   }
- 
   
   .ruyxat__item{
       width: auto;
