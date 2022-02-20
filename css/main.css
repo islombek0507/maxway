@@ -472,7 +472,6 @@ a {
 @media screen and (max-width: 700px) {
   .ruyxat__list {
     width: 100%;
-    overflow-x: scroll;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     margin-bottom: 45px;
