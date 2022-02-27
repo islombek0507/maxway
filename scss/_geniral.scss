@@ -14,7 +14,30 @@ font-weight: normal;
 font-size: 14px;
 line-height: 17px;
 mix-blend-mode: normal;
+color: $wordcolor;
 }
+.body__tun{
+    background-color: $bgcolor;
+    color: #FFFFFF
+     
+     }
+     .body__tun .header__burger-span, .body__tun .header__burger::after, .body__tun .header__burger::before{
+         background-color: #FFFFFF;
+     }
+     .body__tun h3, .body__tun h2, .body__tun p{
+         color: #FFFFFF;
+     }
+     .body__tun .footer__social-link path{
+         
+             fill: #FFFFFF;
+         
+     }
+     .body__tun .intro__list::-webkit-scrollbar, .body__tun .intro__list::-webkit-scrollbar-track, .body__tun .ruyxat__list::-webkit-scrollbar, .body__tun .ruyxat__list::-webkit-scrollbar-thumb {
+        background-color: $bgcolor;
+     }
+     .body__tun .ruyxat__link{
+         color: #FFFFFF;
+     }
 img{
     max-width: 100%;
 }

@@ -6,6 +6,7 @@
 }
 @media screen and (max-width:  $mobile) {
   .container{
-      max-width: 412px;
+    padding: 0px 8px;
+      max-width: 396px;
   }
 }

@@ -7,7 +7,7 @@ line-height: 63px;
 margin: 0;
 margin-bottom: 30px;
 
-color: #222124;
+color: $wordcolor;
 }
 .mahsulot__list {
     width: 100%;
@@ -39,9 +39,10 @@ color: #222124;
     font-weight: 500;
 font-size: 24px;
 line-height: 29px;
-color: #222124;
+color: $wordcolor;
 }
 .mahsulot__text {
+    // width: 191px;
     margin-top: 10px;
     margin-bottom: 24px;
 }
@@ -62,27 +63,30 @@ color: #222124;
     font-size: 28px;
 }
 @media screen and (max-width:  $mobile) {
+    
   .mahsulot__list{
       width: 100%;
       flex-direction: column;
   }
   .mahsulot__item{
-      width: 100%;
-      padding: 20px 0px 12px 20px;
+      width: 98%;
+      padding: 15px 0px 12px 20px;
       margin-right: 0;
   }
   .mahsulot__img{
       width: 127px;
       height: 127px;
+      margin: 0;
   }
   .mahsulot__content{
-      margin-left: 28px;
+      width: 192px;
+      margin-left: 20px;
   }
   .mahsulot__title{
       font-size: 24px;
   }
   .mahsulot__text{
-      width: 193px;
+      width: 191px;
       font-size: 12px;
   }
   .mahsulot__plus{

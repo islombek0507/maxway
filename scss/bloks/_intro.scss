@@ -134,14 +134,14 @@ margin-top: 70px;
   }
   .intro__list{
       flex-wrap: nowrap;
-      overflow: scroll;
+      overflow-x: scroll;
      
   }
   .intro__list::-webkit-scrollbar {
     height: 10px;
   }
   .intro__list::-webkit-scrollbar-track {
-    background: #fff;
+    background-color: #fff;
   }
   .intro__list:hover::-webkit-scrollbar-thumb{
     background-color: #fff;
