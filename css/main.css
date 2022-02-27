@@ -617,7 +617,7 @@ a {
     margin-bottom: 45px;
   }
   .ruyxat__list::-webkit-scrollbar {
-    height: 10px;
+    height: 1px;
   }
   .ruyxat__list::-webkit-scrollbar-track {
     background: #fff;
